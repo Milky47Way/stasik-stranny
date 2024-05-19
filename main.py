@@ -7,12 +7,12 @@ win_height = 500
 display.set_caption('Shooter')
 window = display.set_mode((win_width, win_height))
 
-img_back = 'b4731cf47a193ff46fa7ef82b637d7fa.jpg'
+img_back = '57939bc82a4cc5c051859b6834c37d89.jpg'
 img_back2 = 'msg6626102196-249.jpg'
 img_hero = 'photo_5271635579597086264_y-removebg-preview.png'
 img_bullet = 'photo_5271635579597086263_y-removebg-preview.png'
-img_enemy = 'photo_5271635579597086262_y-removebg-preview.png'
-img_enemy2 = 'photo1714915324-removebg-preview.png'
+img_enemy = 'і-2147483648_-238640-removebg-preview.png'
+img_enemy2 = 'photo_5271635579597086262_y-removebg-preview.png'
 img_enemy3 = 'photo1714915324__1_-removebg-preview (2).png'
 
 img_back4 = 'fon_5335026234574363357_y.jpg'

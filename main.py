@@ -7,15 +7,15 @@ win_height = 500
 display.set_caption('Shooter')
 window = display.set_mode((win_width, win_height))
 
-img_back = '57939bc82a4cc5c051859b6834c37d89.jpg'
-img_back2 = 'msg6626102196-249.jpg'
+img_back = 'rPicsart_24-05-26_03-45-41-131.jpg'
+img_back2 = 'vPicsart_24-05-26_03-48-03-126.jpg'
 img_hero = 'photo_5271635579597086264_y-removebg-preview.png'
 img_bullet = 'photo_5271635579597086263_y-removebg-preview.png'
 img_enemy = 'і-2147483648_-238640-removebg-preview.png'
 img_enemy2 = 'photo_5271635579597086262_y-removebg-preview.png'
 img_enemy3 = 'photo1714915324__1_-removebg-preview (2).png'
 
-img_back4 = 'fon_5335026234574363357_y.jpg'
+img_back4 = 'Picsart_24-05-26_03-38-59-005 (1).png'
 
 score = 0
 lost = 0
@@ -78,7 +78,7 @@ for i in range(1, 6):
 #mixer.init()
 #mixer.music.load('space.ogg') #music
 #mixer.music.play()
-#fire_sound = mixer.Sound('fire.ogg')
+#fire_sound = mixer.Sound('fire.ogg')![](rPicsart_24-05-26_03-45-41-131.jpg)
 
 font.init()
 font1 = font.Font(None, 80)
@@ -110,7 +110,7 @@ while run:
     #menu
     if menu:
         window.blit(background3, (0, 0))
-        text_menu = font2.render('Натисніть будь-яку кнопку', True, (255, 255, 255))
+        text_menu = font2.render('  ', True, (255, 255, 255))
         window.blit(text_menu, (190, 400))
         for e in event.get():
             if e.type == KEYDOWN:
